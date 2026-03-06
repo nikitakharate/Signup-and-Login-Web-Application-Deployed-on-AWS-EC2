@@ -4,7 +4,7 @@
 This project demonstrates the deployment of a complete **Signup and Login web application** on an **AWS EC2 instance**. The application uses **Nginx** as a web server, **PHP** for backend authentication logic, and **MariaDB** as the database for storing user credentials. The main objective of this project is to understand how a full-stack web application can be hosted and managed on cloud infrastructure using AWS EC2.
 
 The application allows users to register (signup) and log in securely through web forms. All components are installed and configured manually on a single EC2 instance to gain hands-on experience with cloud deployment.
-[![ni1.jpg](https://i.postimg.cc/9Q30B2nm/ni1.jpg)](https://postimg.cc/D8g729hH)
+![alt text](ni-1.jpeg)
 ---
 
 ## Project Architecture
@@ -34,7 +34,7 @@ The application allows users to register (signup) and log in securely through we
    - HTTP (Port 80)
    - SSH (Port 22)
 3. Connect to the instance using SSH.
-[![nk3.jpg](https://i.postimg.cc/nhhkJ6xL/nk3.jpg)](https://postimg.cc/YhTgNDhc)
+![alt text](nk3.jpeg)
 ---
 
 ### Step 2: Install and Configure Nginx
@@ -64,8 +64,8 @@ sudo mysql_secure_installation
 ```
 - Create a database and table for storing user information.
 - Example fields: name, email, password, gender, comments.
-[![nk5.jpg](https://i.postimg.cc/5N6yW3rR/nk5.jpg)](https://postimg.cc/w7YghhgX)
-[![nk6.jpg](https://i.postimg.cc/TPqYJHyW/nk6.jpg)](https://postimg.cc/hJvBSs1S)
+![alt text](nk5.jpeg)
+![alt text](nk6.jpeg)
 ---
 
 ### Step 5: Create Frontend Pages
@@ -75,7 +75,7 @@ sudo mysql_secure_installation
   - Allows registered users to log in using email and password.
 
 Both pages are styled using CSS and send form data to the backend PHP file.
-[![nk4.jpg](https://i.postimg.cc/FsWSj1t9/nk4.jpg)](https://postimg.cc/LnPhS967)
+![alt text](nk4.jpeg)
 ---
 
 ### Step 6: Backend Authentication (`auth.php`)
@@ -108,8 +108,8 @@ sudo systemctl restart nginx
 This project successfully demonstrates how to deploy a **Signup and Login web application on AWS EC2** using **Nginx, PHP, and MariaDB**. By hosting all components on an EC2 instance, the project provides practical experience in cloud computing, server configuration, and full-stack deployment.
 
 The project highlights the power of AWS EC2 as a flexible and scalable cloud service and builds a strong foundation for deploying more advanced applications in real-world scenarios.
-[![nk1.png](https://i.postimg.cc/63bKHsBJ/nk1.png)](https://postimg.cc/7Gzj6WCm)
-[![nk2.png](https://i.postimg.cc/sftxySC0/nk2.png)](https://postimg.cc/ThJfJKwr)
+![alt text](nk1.jpeg)
+![alt text](nk2.jpeg)
 ---
 
 
